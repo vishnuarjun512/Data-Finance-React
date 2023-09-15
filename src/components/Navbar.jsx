@@ -12,13 +12,13 @@ const Navbar = () => {
     
     return (
         <div className="flex justify-between max-width-[1240px] px-4 mx-auto items-center h-24 text-white">
-            {/* <ul className="flex">
+            <ul className="lg:flex hidden">
                 <li className="p-4">Home</li>
                 <li className="p-4">Companies</li>
                 <li className="p-4">Resources</li>
                 <li className="p-4">About</li>
                 <li className="p-4">Contact</li>
-            </ul> */}
+            </ul>
     
             <div onClick={handleNav} className="flex ml-auto">
                 {!nav ? <AiOutlineClose size={20}/> :  <AiOutlineMenu size={20}/>}
